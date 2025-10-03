@@ -21,7 +21,7 @@ export default function Senha() {
         setConfirmeSenha("")
     }
     return (
-        <div>
+        <div class="container">
             <h1>Validador de senhas</h1>
             <input type="password" placeholder="Digite a senha" id="senha" onChange={(e) => setSenha(e.target.value)} value={senha} onKeyDown={(e) => {
                 if (e.key === "Enter") {
